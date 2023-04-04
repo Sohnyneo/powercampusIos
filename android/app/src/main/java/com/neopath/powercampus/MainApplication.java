@@ -1,4 +1,4 @@
-package com.powercampusios;
+package com.neopath.powercampus;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

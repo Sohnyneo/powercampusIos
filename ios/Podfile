@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'powercampusIos' do
+target 'powercampus' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'powercampusIos' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'powercampusIosTests' do
+  target 'powercampusTests' do
     inherit! :complete
     # Pods for testing
   end
